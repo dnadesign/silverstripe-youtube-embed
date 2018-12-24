@@ -1,0 +1,4 @@
+# For future implementation
+# SilverStripe\SiteConfig\SiteConfig:
+#   extensions:
+#     - DNADesign\DataExtension\YoutubeEmbedSiteConfigExtension

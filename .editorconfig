@@ -1,0 +1,59 @@
+Skip to content
+
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @rafaeldsousa Sign out
+3
+0 1 dnadesign/silverstripe-elemental-carbon-spotlight
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+silverstripe-elemental-carbon-spotlight/.editorconfig
+4a3f572  4 days ago
+@gmlnchv gmlnchv Initial commit
+
+30 lines (23 sloc)  585 Bytes
+# For more information about the properties used in
+# this file, please see the EditorConfig documentation:
+# http://editorconfig.org/
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.yml]
+indent_size = 2
+indent_style = space
+
+[*.{yml,json}]
+# The indent size used in the `package.json` file cannot be changed
+# https://github.com/npm/npm/pull/3180#issuecomment-16336516
+indent_size = 2
+indent_style = space
+
+[composer.json]
+indent_size = 4
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.

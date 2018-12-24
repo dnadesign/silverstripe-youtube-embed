@@ -1,0 +1,28 @@
+{
+    "name": "dnadesign/silverstripe-youtube-embed",
+    "description": "Embeds a YouTube iframe in SilverStripe templates with an optional poster image field",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "youtube",
+        "embed",
+        "video"
+    ],
+    "require": {
+        "edgarindustries/youtubefield": "2.0-beta1",
+        "sinergi/browser-detector": "^6.1.2",
+        "silverstripe/vendor-plugin": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DNADesign\\YoutubeEmbed\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-name": "silverstripe-youtube-embed",
+        "expose": [
+            "client"
+        ]
+    },
+    "license": "BSD-3-Clause"
+}
