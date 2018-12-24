@@ -17,4 +17,4 @@ composer require dnadesign/silverstripe-youtube-embed
 -->
 
 ## Mobile browsers
-This module uses the (`sinergi/php-browser-detector`)[https://github.com/sinergi/php-browser-detector] to disable poster image in mobile browsers to avoid having to click twice to play the video.
+This module uses the [sinergi/php-browser-detector](https://github.com/sinergi/php-browser-detector) to disable poster image in mobile browsers to avoid having to click twice to play the video.
