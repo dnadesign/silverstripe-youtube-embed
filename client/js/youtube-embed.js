@@ -10,7 +10,7 @@ if (typeof Element.prototype.closest !== 'function') {
   };
 }
 
-document.querySelectorAll('.youtube-embed__poster').forEach(function(item) {
+Array.prototype.slice.call(document.querySelectorAll('.youtube-embed__poster')).forEach(function(item) {
   item.addEventListener('click',function(e) {
     e.preventDefault();
     var poster = e.currentTarget;
