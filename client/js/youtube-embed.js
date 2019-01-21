@@ -10,13 +10,15 @@ if (typeof Element.prototype.closest !== 'function') {
   };
 }
 
+var videoClick = function(e) {
+  e.preventDefault();
+  var poster = e.currentTarget;
+  var wrapper = poster.closest('.youtube-embed__container');
+  videoPlay(wrapper);
+};
+
 Array.prototype.slice.call(document.querySelectorAll('.youtube-embed__poster')).forEach(function(item) {
-  item.addEventListener('click',function(e) {
-    e.preventDefault();
-    var poster = e.currentTarget;
-    var wrapper = poster.closest('.youtube-embed__container');
-    videoPlay(wrapper);
-  });
+  item.addEventListener('click', videoClick);
 });
 
 function videoPlay(wrapper) {
