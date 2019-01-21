@@ -18,7 +18,7 @@ var videoClick = function(e) {
 };
 
 Array.prototype.slice.call(document.querySelectorAll('.youtube-embed__poster')).forEach(function(item) {
-  item.addEventListener('click', videoClick );
+  item.addEventListener('click', videoClick);
 });
 
 function videoPlay(wrapper) {
