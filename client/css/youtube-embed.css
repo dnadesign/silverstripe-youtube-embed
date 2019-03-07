@@ -35,6 +35,11 @@
   transition-delay: 0s, 0s;
 }
 
+.youtube-embed__poster svg {
+  width: 66px;
+  height: 66px;
+}
+
 .youtube-embed__container.is-active .youtube-embed__poster {
   overflow: hidden;
   opacity: 0;
