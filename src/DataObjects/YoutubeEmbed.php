@@ -20,6 +20,10 @@ class YoutubeEmbed extends DataObject
   private static $has_one = [
     'Poster' => Image::class,
   ];
+  
+  private static $owns = [
+    'Poster',
+  ];  
 
   public function getIsMobile() {
     $os = new Os();
