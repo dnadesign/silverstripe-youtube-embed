@@ -8,6 +8,6 @@
   }
 </style>
 
-<button type="button" class="youtube-embed__poster">
+<button type="button" class="youtube-embed__poster" aria-label="custom video play button">
   <svg viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" stroke="#fff" stroke-width="2" fill="none"><path d="M41.5 33l-14 8.5v-17z"/><circle cx="33" cy="33" r="32"/></g></svg>
 </button>
