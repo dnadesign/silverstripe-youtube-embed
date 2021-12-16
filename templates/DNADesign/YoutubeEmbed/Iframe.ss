@@ -2,14 +2,14 @@
   <iframe
     src="//www.youtube.com/embed/{$VideoID}?rel=0&showinfo=0&controls=1&autohide=1&modestbranding=1&enablejsapi=1&playsinline=1"
     frameborder="0"
-    title="youtube video"
+    title="$IframeTitle"
     allowTransparency="true"
     allowfullscreen>
   </iframe>
 <% else %>
   <iframe
     src=""
-    title="youtube video"
+    title="$IframeTitle"
     frameborder="0"
     allowTransparency="true"
     allowfullscreen
