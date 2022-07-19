@@ -9,7 +9,7 @@
         "video"
     ],
     "require": {
-        "edgarindustries/youtubefield": "2.0-beta1",
+        "edgarindustries/youtubefield": "^2.0",
         "sinergi/browser-detector": "^6.1.2",
         "silverstripe/vendor-plugin": "^1.0"
     },
