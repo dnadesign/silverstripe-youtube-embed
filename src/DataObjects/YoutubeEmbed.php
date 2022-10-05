@@ -22,7 +22,7 @@ class YoutubeEmbed extends DataObject
     private static $has_one = [
     'Poster' => Image::class,
   ];
-  
+
     private static $owns = [
     'Poster',
   ];
@@ -70,8 +70,8 @@ class YoutubeEmbed extends DataObject
      */
     public function getTitle()
     {
-        if (trim($this->VideoTitle)) {
-            return $this->VideoTitle;
+        if ($this->VideoTitle) {
+            return trim($this->VideoTitle);
         }
 
         return _t(self::class . '.DEFAULT_VIDEO_TITLE', 'Youtube video');
