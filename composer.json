@@ -9,9 +9,9 @@
         "video"
     ],
     "require": {
-        "edgarindustries/youtubefield": "^2.0",
+        "toastnz/youtubefield": "^2.0",
         "sinergi/browser-detector": "^6.1.2",
-        "silverstripe/vendor-plugin": "^1.0"
+        "silverstripe/vendor-plugin": "^1.5"
     },
     "autoload": {
         "psr-4": {
