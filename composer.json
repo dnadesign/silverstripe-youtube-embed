@@ -9,9 +9,9 @@
         "video"
     ],
     "require": {
-        "edgarindustries/youtubefield": "^2.0",
-        "sinergi/browser-detector": "^6.1.2",
-        "silverstripe/vendor-plugin": "^1.0"
+        "sunnysideup/youtubefield": "dev-patch-1",
+        "mobiledetect/mobiledetectlib": "^4",
+        "silverstripe/vendor-plugin": "^1.0 || ^2.0"
     },
     "autoload": {
         "psr-4": {
