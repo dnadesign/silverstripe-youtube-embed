@@ -9,10 +9,15 @@
         "video"
     ],
     "require": {
-        "sunnysideup/youtubefield": "dev-patch-1",
-        "mobiledetect/mobiledetectlib": "^4",
-        "silverstripe/vendor-plugin": "^1.0 || ^2.0"
+        "toastnz/youtubefield": "dev-feature/silverstripe-6",
+        "mobiledetect/mobiledetectlib": "^4"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dnadesign/silverstripe-youtubefield.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "DNADesign\\YoutubeEmbed\\": "src/"
