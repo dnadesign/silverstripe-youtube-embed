@@ -7,8 +7,8 @@ use EdgarIndustries\YouTubeField\YouTubeField;
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Assets\Image;
 use SilverStripe\Forms\TextField;
+use SilverStripe\Model\ArrayData;
 use SilverStripe\ORM\DataObject;
-use SilverStripe\View\ArrayData;
 
 class YoutubeEmbed extends DataObject
 {
@@ -46,10 +46,10 @@ class YoutubeEmbed extends DataObject
         return $fields;
     }
 
-    public function forTemplate()
+    public function forTemplate(): string
     {
         // return $this->renderWith(self::class);
-        return $this->customise(new ArrayData([
+        return $this->customise(ArrayData::create([
           'IsMobileBrowser' => $this->getIsMobile(),
         ]))->renderWith(self::class);
     }
